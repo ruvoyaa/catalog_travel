@@ -1,0 +1,15 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <path d="M0 482C131 447 250 521 403 512C556 503 674 418 835 421C976 423 1093 473 1200 504V800H0V482Z" fill="#DBF4FF"/>
+  <path d="M0 578C128 554 251 604 402 598C547 593 660 523 825 523C968 523 1088 568 1200 596V800H0V578Z" fill="#8FDBF8"/>
+  <path d="M0 673C132 658 255 694 429 692C577 691 694 650 831 652C981 655 1091 684 1200 700V800H0V673Z" fill="#38BDF8"/>
+  <text x="74" y="116" fill="white" font-family="Arial, sans-serif" font-size="56" font-weight="700">Сочи</text>
+  <text x="74" y="174" fill="#E0F2FE" font-family="Arial, sans-serif" font-size="28">море, набережные и мягкий климат</text>
+  <defs>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DD3FC"/>
+      <stop offset="0.48" stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+  </defs>
+</svg>

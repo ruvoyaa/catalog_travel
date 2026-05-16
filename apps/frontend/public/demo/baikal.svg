@@ -1,0 +1,17 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#E0F2FE"/>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <path d="M0 529C133 508 212 555 333 560C454 565 538 477 675 474C828 470 916 554 1036 552C1109 551 1164 526 1200 510V800H0V529Z" fill="#D6F1FF"/>
+  <path d="M0 588C120 573 242 632 372 629C504 627 576 541 718 534C865 527 959 627 1077 624C1122 623 1167 614 1200 604V800H0V588Z" fill="#B9E6FF"/>
+  <path d="M0 685C154 660 222 706 341 714C447 721 560 641 689 640C838 639 940 720 1066 718C1128 717 1175 706 1200 699V800H0V685Z" fill="#7CC7F2"/>
+  <path d="M117 279L240 238L312 273L433 221L530 270L627 217L741 250L856 203L972 247L1081 198" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  <text x="72" y="116" fill="#0F172A" font-family="Arial, sans-serif" font-size="54" font-weight="700">Baikal Ice Journey</text>
+  <text x="72" y="172" fill="#164E63" font-family="Arial, sans-serif" font-size="28">demo visual placeholder</text>
+  <defs>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E0F2FE"/>
+      <stop offset="0.55" stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,16 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <path d="M138 484L330 202L511 483H138Z" fill="#2F241F"/>
+  <path d="M370 560L595 220L820 560H370Z" fill="#43322C"/>
+  <path d="M631 483L842 166L1058 483H631Z" fill="#2D1F19"/>
+  <path d="M0 648L173 584L324 616L547 542L717 599L905 507L1200 423V800H0V648Z" fill="#263C34"/>
+  <text x="68" y="112" fill="white" font-family="Arial, sans-serif" font-size="56" font-weight="700">Камчатка</text>
+  <text x="68" y="170" fill="#FDE68A" font-family="Arial, sans-serif" font-size="28">вулканы и термальные долины</text>
+  <defs>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6B7280"/>
+      <stop offset="0.45" stop-color="#B45309"/>
+      <stop offset="1" stop-color="#1F2937"/>
+    </linearGradient>
+  </defs>
+</svg>

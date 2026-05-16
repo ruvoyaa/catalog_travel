@@ -1,0 +1,14 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <path d="M0 554L164 442L323 488L499 340L687 473L845 297L1016 389L1200 276V800H0V554Z" fill="#3C5A35"/>
+  <path d="M0 644L183 573L337 624L544 466L715 581L902 448L1068 513L1200 457V800H0V644Z" fill="#688B5E"/>
+  <text x="70" y="110" fill="white" font-family="Arial, sans-serif" font-size="56" font-weight="700">Дагестан</text>
+  <text x="70" y="168" fill="#FEF3C7" font-family="Arial, sans-serif" font-size="28">каньоны, горные аулы и побережье</text>
+  <defs>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#93C572"/>
+      <stop offset="0.55" stop-color="#4D7C0F"/>
+      <stop offset="1" stop-color="#27351B"/>
+    </linearGradient>
+  </defs>
+</svg>

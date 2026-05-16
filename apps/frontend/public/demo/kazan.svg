@@ -1,0 +1,17 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="190" y="267" width="177" height="318" rx="12" fill="#FAFAF9"/>
+  <rect x="434" y="212" width="138" height="373" rx="12" fill="#FFF7ED"/>
+  <rect x="622" y="302" width="109" height="283" rx="12" fill="#FEF3C7"/>
+  <rect x="778" y="246" width="165" height="339" rx="12" fill="#FAFAF9"/>
+  <path d="M0 655L231 620L422 660L668 614L839 651L1200 582V800H0V655Z" fill="#7C2D12"/>
+  <text x="72" y="114" fill="white" font-family="Arial, sans-serif" font-size="56" font-weight="700">Казань</text>
+  <text x="72" y="172" fill="#FDE68A" font-family="Arial, sans-serif" font-size="28">городская прогулка и гастрономия</text>
+  <defs>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="0.58" stop-color="#C2410C"/>
+      <stop offset="1" stop-color="#7C2D12"/>
+    </linearGradient>
+  </defs>
+</svg>

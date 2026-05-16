@@ -1,0 +1,14 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <path d="M0 535L171 416L342 521L518 317L677 473L830 279L994 399L1200 302V800H0V535Z" fill="#234236"/>
+  <path d="M0 689C135 641 246 699 396 695C558 691 639 601 801 603C980 605 1073 659 1200 691V800H0V689Z" fill="#5AA897"/>
+  <text x="66" y="114" fill="white" font-family="Arial, sans-serif" font-size="52" font-weight="700">Алтайские озёра</text>
+  <text x="66" y="170" fill="#D1FAE5" font-family="Arial, sans-serif" font-size="28">маршрут выходного дня</text>
+  <defs>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9AC6B4"/>
+      <stop offset="0.5" stop-color="#357266"/>
+      <stop offset="1" stop-color="#1E332C"/>
+    </linearGradient>
+  </defs>
+</svg>

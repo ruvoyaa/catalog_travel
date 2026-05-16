@@ -1,0 +1,47 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: infra/docker/backend/Dockerfile
+    working_dir: /workspace/apps/backend
+    volumes:
+      - ./:/workspace
+    ports:
+      - "${APP_PORT:-8000}:8000"
+    environment:
+      APP_ENV: local
+      APP_DEBUG: "true"
+      DB_CONNECTION: pgsql
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_DATABASE: ${POSTGRES_DB:-catalog_travel}
+      DB_USERNAME: ${POSTGRES_USER:-catalog_travel}
+      DB_PASSWORD: ${POSTGRES_PASSWORD:-catalog_travel}
+    depends_on:
+      - db
+    command: tail -f /dev/null
+
+  frontend:
+    build:
+      context: .
+      dockerfile: infra/docker/frontend/Dockerfile
+    working_dir: /workspace/apps/frontend
+    volumes:
+      - ./:/workspace
+    ports:
+      - "${FRONTEND_PORT:-3000}:3000"
+    command: tail -f /dev/null
+
+  db:
+    image: postgres:16-alpine
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-catalog_travel}
+      POSTGRES_USER: ${POSTGRES_USER:-catalog_travel}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-catalog_travel}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

@@ -1,0 +1,17 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#E7E5E4"/>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <path d="M0 609L166 488L293 563L476 350L625 493L791 274L943 414L1200 217V800H0V609Z" fill="#1C4532"/>
+  <path d="M0 661L185 555L340 612L504 439L636 539L825 362L953 471L1200 329V800H0V661Z" fill="#2F6A4F"/>
+  <path d="M0 726L168 657L318 695L520 556L676 640L852 526L1018 591L1200 514V800H0V726Z" fill="#6E9E7A"/>
+  <circle cx="938" cy="148" r="61" fill="#FDE68A"/>
+  <text x="72" y="116" fill="white" font-family="Arial, sans-serif" font-size="54" font-weight="700">Altai Escape</text>
+  <text x="72" y="172" fill="#FEF3C7" font-family="Arial, sans-serif" font-size="28">demo visual placeholder</text>
+  <defs>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8FB8A5"/>
+      <stop offset="0.5" stop-color="#4C7B67"/>
+      <stop offset="1" stop-color="#1F3B2E"/>
+    </linearGradient>
+  </defs>
+</svg>

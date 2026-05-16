@@ -1,0 +1,15 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <path d="M0 609L126 566L242 589L384 508L508 545L626 462L761 500L925 423L1200 319V800H0V609Z" fill="#194B3A"/>
+  <path d="M0 704L171 666L286 692L401 633L574 658L692 585L823 607L1004 550L1200 488V800H0V704Z" fill="#3F7A62"/>
+  <circle cx="966" cy="168" r="66" fill="#FDE68A"/>
+  <text x="70" y="118" fill="white" font-family="Arial, sans-serif" font-size="56" font-weight="700">Карелия</text>
+  <text x="70" y="176" fill="#D1FAE5" font-family="Arial, sans-serif" font-size="28">лесные озёра и острова</text>
+  <defs>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7BC0A4"/>
+      <stop offset="0.55" stop-color="#326A55"/>
+      <stop offset="1" stop-color="#183227"/>
+    </linearGradient>
+  </defs>
+</svg>
