@@ -2,6 +2,7 @@
 .DS_Store
 .idea/
 .vscode/
+.codex/
 
 # Env
 .env
@@ -31,4 +32,3 @@ bootstrap/cache/*.php
 
 # Docker
 .docker-data/
-
