@@ -55,6 +55,7 @@
 - `docs/stage-02-catalog-admin-core.md`
 - `docs/stage-03-semantic-search-and-llm.md`
 - `docs/stage-04-stabilization-and-release.md`
+- `docs/admin/00-README.md`
 
 ## Ограничения
 
